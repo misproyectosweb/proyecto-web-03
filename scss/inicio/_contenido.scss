@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/10/2022, 04:43:17 PM
+    Author     : pcgc7
+*/
+
+.contenido {
+    grid-area: contenido;
+
+    display: grid;    
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 10.5em);
+                
+    grid-template-areas:    
+    "opciones   opciones   opciones   opciones   opciones   opciones"
+    "opciones   opciones   opciones   opciones   opciones   opciones"
+    "opciones   opciones   opciones   opciones   opciones   opciones"
+    "opciones   opciones   opciones   opciones   opciones   opciones"
+    "opciones   opciones   opciones   opciones   opciones   opciones"        
+    "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes"
+    "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes"
+    "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes"  
+    "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes"
+    "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes";
+    
+    /******************** Estilos imagen de fondo *****************************/
+    
+    @import "_imagenFondo.scss";
+        
+    /******************** Estilos carrusel de imágenes ************************/
+    
+    @import "_carruselImagenes.scss";
+    
+    /******************** Estilos para el efecto de onda **********************/
+    
+    @import "_efectoOnda.scss";
+    
+    /**************************************************************************/
+}

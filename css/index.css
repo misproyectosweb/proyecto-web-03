@@ -1,0 +1,306 @@
+@charset "UTF-8";
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  Created on : 27/10/2022, 04:15:35 PM Author     : pcgc7
+*/
+/****************************** Variables *************************************/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  Created on : 27/10/2022, 04:23:23 PM Author     : pcgc7
+*/
+/******************** Estilos generales de la página **************************/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  Created on : 27/10/2022, 04:28:26 PM Author     : pcgc7
+*/
+* { box-sizing: border-box; }
+
+body { font-family: "Open Sans", sans-serif; }
+
+::-webkit-scrollbar { display: none; }
+
+/******************** Estilos contenedor de la página *************************/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  Created on : 27/10/2022, 04:43:59 PM Author     : pcgc7
+*/
+.contenedor { display: grid; grid-template-columns: repeat(6, 1fr); grid-template-rows: repeat(13, 10.5em); grid-template-areas: "encabezado encabezado encabezado encabezado encabezado encabezado" "contenido  contenido  contenido  contenido  contenido  contenido" "contenido  contenido  contenido  contenido  contenido  contenido" "contenido  contenido  contenido  contenido  contenido  contenido" "contenido  contenido  contenido  contenido  contenido  contenido" "contenido  contenido  contenido  contenido  contenido  contenido" "contenido  contenido  contenido  contenido  contenido  contenido" "contenido  contenido  contenido  contenido  contenido  contenido" "contenido  contenido  contenido  contenido  contenido  contenido" "contenido  contenido  contenido  contenido  contenido  contenido" "contenido  contenido  contenido  contenido  contenido  contenido"     "piepagina  piepagina  piepagina  piepagina  piepagina  piepagina" "piepagina  piepagina  piepagina  piepagina  piepagina  piepagina"; /******************** Estilos encabezado página inicio ********************/ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /*  Created on : 27/10/2022, 04:29:01 PM Author     : pcgc7
+*/ /******************** Estilos contenido página inicio *********************/ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /*  Created on : 27/10/2022, 04:43:17 PM Author     : pcgc7
+*/ /******************** Estilos del pie de página ***************************/ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /*  Created on : 27/10/2022, 04:24:55 PM Author     : pcgc7
+*/ /**************************************************************************/ }
+.contenedor .encabezado { grid-area: encabezado; width: 100%; z-index: 80; background: linear-gradient(to right, #f5f5f5 0%, #b59a47 100%); box-shadow: 0 0.75em 0.75em 0 rgba(0, 0, 0, 0.5); }
+.contenedor .encabezado .logo { display: flex; flex-direction: row; justify-content: flex-start; align-items: center; }
+.contenedor .encabezado .logo img { width: 15.75%; margin: 2.25em 1.25em; }
+.contenedor .contenido { grid-area: contenido; display: grid; grid-template-columns: repeat(6, 1fr); grid-template-rows: repeat(10, 10.5em); grid-template-areas: "opciones   opciones   opciones   opciones   opciones   opciones" "opciones   opciones   opciones   opciones   opciones   opciones" "opciones   opciones   opciones   opciones   opciones   opciones" "opciones   opciones   opciones   opciones   opciones   opciones" "opciones   opciones   opciones   opciones   opciones   opciones" "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes" "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes" "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes"   "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes" "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes"; /******************** Estilos imagen de fondo *****************************/ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /*  Created on : 27/10/2022, 04:26:56 PM Author     : pcgc7
+*/ /******************** Estilos carrusel de imágenes ************************/ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /*  Created on : 27/10/2022, 04:47:04 PM Author     : pcgc7
+*/ /********************************* Mixin **************************************/ /******************************************************************************/ /******************** Estilos para el efecto de onda **********************/ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /*  Created on : 27/10/2022, 04:30:02 PM Author     : pcgc7
+*/ /**************************************************************************/ }
+.contenedor .contenido .imagenFondo { grid-area: opciones; display: flex; align-items: center; background-image: url("../imagenes/fondoIglesia.jpg"); background-size: cover; background-repeat: no-repeat; background-position: center; z-index: 70; box-shadow: 0 0.75em 0.75em 0 rgba(0, 0, 0, 0.5); /******************** Estilos fondo menú de opciones **********************/ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /*  Created on : 27/10/2022, 04:27:30 PM Author     : pcgc7
+*/ /******************** Estilos título **************************************/ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /*  Created on : 27/10/2022, 04:24:05 PM Author     : pcgc7
+*/ /******************** Estilos menu de opciones ****************************/ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /*  Created on : 27/10/2022, 04:26:08 PM Author     : pcgc7
+*/ /**************************************************************************/ }
+.contenedor .contenido .imagenFondo .fondoMenu { display: flex; flex-direction: column; height: 50%; width: 100%; text-align: center; background-color: rgba(255, 255, 255, 0.5); }
+.contenedor .contenido .imagenFondo .marcoTitulo { margin: 3.5em 0; }
+.contenedor .contenido .imagenFondo .marcoTitulo .titulo { font-weight: 700; z-index: 60; text-transform: uppercase; margin: 0; /* Recuadro que envuelve el texto del título */ /* Línea creada que acompaña el texto del título */ }
+.contenedor .contenido .imagenFondo .marcoTitulo .titulo span { position: relative; z-index: 50; padding: 0.5em 3em; background-color: #003958; color: #b59a47; border-radius: 0.3125em; }
+.contenedor .contenido .imagenFondo .marcoTitulo .titulo::after { content: ""; display: inline-block; height: 0.125em; width: 90%; background: #003958; position: relative; top: -1.5em; z-index: 40; }
+.contenedor .contenido .imagenFondo .menu { display: flex; flex-direction: row; justify-content: space-around; align-items: center; margin-top: 4em; }
+.contenedor .contenido .imagenFondo .menu .item { height: 100%; width: 15%; padding-top: 1.5em; text-align: center; text-decoration: none; color: #003958; box-shadow: 0 0.75em 0.75em 0 rgba(0, 0, 0, 0.5); border: 0.15em solid #b59a47; border-radius: 0.625em; transition: all ease .3s; }
+.contenedor .contenido .imagenFondo .menu .item:hover { border: 0.15em solid #003958; background: #f2f0e6; border-radius: 0.625em; cursor: pointer; }
+.contenedor .contenido .imagenFondo .menu .opcion { font-size: 3.5em; }
+.contenedor .contenido .carrusel { grid-area: imagenes; background-image: url("../imagenes/imgMuro_5.png"); background-size: cover; background-repeat: no-repeat; background-position: center; }
+.contenedor .contenido .carrusel .contenedor-imagenes { max-width: 85em; height: auto; margin: 0 auto; padding: 5em 0; }
+.contenedor .contenido .carrusel .contenedor-imagenes .items { width: 22em; height: 22em; margin: 4.375em 3.25em; position: relative; }
+.contenedor .contenido .carrusel .contenedor-imagenes .items img { width: 22em; height: 22em; border: 0.5em double #003958; border-radius: 0.5em; padding: 0.5em; transition: all linear .4s; }
+.contenedor .contenido .carrusel .contenedor-imagenes .items .overlay { position: absolute; top: 0; left: 0; width: 22em; height: 22em; border-radius: 0.5em; background: rgba(0, 0, 0, 0.5); }
+.contenedor .contenido .carrusel .contenedor-imagenes .slick-center .overlay { opacity: 0; }
+.contenedor .contenido .carrusel .contenedor-imagenes .slick-center img { transform: scale(1.2); }
+.contenedor .contenido .carrusel .contenedor-imagenes .flecha-previo, .contenedor .contenido .carrusel .contenedor-imagenes .flecha-siguiente { position: absolute; top: 39%; z-index: 30; color: #003958; width: 1.5em; font-size: 5em; text-align: center; }
+.contenedor .contenido .carrusel .contenedor-imagenes .flecha-previo:hover, .contenedor .contenido .carrusel .contenedor-imagenes .flecha-siguiente:hover { cursor: pointer; color: #b59a47; }
+.contenedor .contenido .carrusel .contenedor-imagenes .flecha-previo { left: -10%; }
+.contenedor .contenido .carrusel .contenedor-imagenes .flecha-siguiente { right: -10%; }
+.contenedor .contenido .carrusel .contenedor-imagenes .slick-dots { position: relative; bottom: 0; left: 0; width: 15%; z-index: 30; text-align: center; margin: 0 auto; }
+.contenedor .contenido .carrusel .contenedor-imagenes .slick-dots li { list-style: none; width: 1em; height: 1em; background: #003958; border-radius: 50%; display: inline-block; margin: 0.35em; }
+.contenedor .contenido .carrusel .contenedor-imagenes .slick-dots li.slick-active { background: #b59a47; }
+.contenedor .contenido .carrusel .contenedor-imagenes .slick-dots li button { display: none; }
+.contenedor .contenido .wave { grid-column-start: 1; grid-column-end: 7; height: 30%; position: relative; top: -10.75em; z-index: 10; }
+.contenedor .contenedorPiepagina { grid-area: piepagina; display: flex; flex-direction: row; justify-content: space-between; align-items: center; flex-wrap: wrap; background: #003958; z-index: 20; /******************** Estilos columnas pie de página **********************/ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /*  Created on : 27/10/2022, 04:45:44 PM Author     : pcgc7
+*/ /********************************* Mixin **************************************/ /******************************************************************************/ /******************** Estilos barra de información ************************/ /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/ /*  Created on : 27/10/2022, 04:47:48 PM Author     : pcgc7
+*/ /**************************************************************************/ }
+.contenedor .contenedorPiepagina .columna-logo { display: flex; flex-direction: column; justify-content: center; align-items: center; width: 23%; height: auto; }
+.contenedor .contenedorPiepagina .columna-logo img { width: 68%; }
+.contenedor .contenedorPiepagina .columna-menu { width: 23%; height: auto; }
+.contenedor .contenedorPiepagina .columna-menu h2 { margin: 1em 0; font-weight: 600; color: #b59a47; }
+.contenedor .contenedorPiepagina .columna-menu ul { padding: 0; margin: 0 1.25em; line-height: 2.65em; color: #fff; }
+.contenedor .contenedorPiepagina .columna-menu a { text-decoration: none; color: #fff; }
+.contenedor .contenedorPiepagina .columna-menu a:hover { color: #b59a47; }
+.contenedor .contenedorPiepagina .columna-redes { width: 23%; height: auto; }
+.contenedor .contenedorPiepagina .columna-redes h2 { margin: 1em 0; font-weight: 600; color: #b59a47; }
+.contenedor .contenedorPiepagina .columna-redes .redes { display: flex; flex-direction: row; align-items: center; line-height: 3.5em; }
+.contenedor .contenedorPiepagina .columna-redes .redes .icono { color: #fff; width: 1.25em; font-size: 2em; text-align: center; }
+.contenedor .contenedorPiepagina .columna-redes .redes a { text-decoration: none; }
+.contenedor .contenedorPiepagina .columna-redes .redes a label { margin-left: 1em; color: #fff; }
+.contenedor .contenedorPiepagina .columna-redes .redes a label:hover { color: #b59a47; }
+.contenedor .contenedorPiepagina .columna-contacto { width: 23%; height: auto; }
+.contenedor .contenedorPiepagina .columna-contacto h2 { margin: 1em 0; font-weight: 600; color: #b59a47; }
+.contenedor .contenedorPiepagina .columna-contacto .datos { display: flex; flex-direction: row; align-items: center; line-height: 3.5em; color: #fff; }
+.contenedor .contenedorPiepagina .columna-contacto .datos a { text-decoration: none; margin-left: 1em; color: #fff; }
+.contenedor .contenedorPiepagina .columna-contacto .datos a:hover { color: #b59a47; }
+.contenedor .contenedorPiepagina .columna-contacto .datos .icono { width: 1.25em; font-size: 2em; text-align: center; }
+.contenedor .contenedorPiepagina .columna-contacto .datos label { margin-left: 1em; }
+.contenedor .contenedorPiepagina .contenedorInformacion { width: 100%; height: 18%; display: flex; justify-content: center; align-items: center; background: #003958; border-top: 0.0625em solid #b59a47; }
+.contenedor .contenedorPiepagina .barraInfo { color: #b59a47; }
+
+/******************** Estilos sección loader **********************************/
+/*@import "inicio/_preloader.scss";*/
+/******************** Estilos para dispositivos móviles ***********************/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  Created on : 27/10/2022, 04:32:07 PM Author     : pcgc7
+*/
+/* Dispositivos con orientación horizontal con una resolución de pantalla máxima de 1280px */
+@media screen and (max-width: 1280px) { .contenedor { grid-template-rows: repeat(13, 8em); }
+  .contenedor .encabezado .logo img { width: 18.75%; margin: 1.75em 1em; }
+  .contenedor .contenido { grid-template-rows: repeat(10, 8em); }
+  .contenedor .contenido .imagenFondo { background-size: 100% 100%; }
+  .contenedor .contenido .imagenFondo .fondoMenu .marcoTitulo { margin: 2.5em 0; }
+  .contenedor .contenido .imagenFondo .fondoMenu .marcoTitulo .titulo { font-size: 1.2em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .marcoTitulo .titulo::after { top: -1.5em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu { margin-top: 3em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu .opcion { font-size: 3em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu .tituloItem { font-size: 1em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes { max-width: 65em; padding: 4em 0; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .flecha-previo { font-size: 4em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .flecha-siguiente { font-size: 4em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items { margin: 4.5em 2.25em; width: 17em; height: 17em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items img { padding: 0.25em; width: 17em; height: 17em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items .overlay { width: 17em; height: 17em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .slick-dots { width: 20%; bottom: 1em; }
+  .contenedor .contenido .wave { top: -7.15em; }
+  .contenedor .contenedorPiepagina { justify-content: space-around; }
+  .contenedor .contenedorPiepagina .columna-menu h2 { font-size: 1.2em; }
+  .contenedor .contenedorPiepagina .columna-menu ul { font-size: 0.85em; padding-left: 0.25em; }
+  .contenedor .contenedorPiepagina .columna-redes h2 { font-size: 1.2em; }
+  .contenedor .contenedorPiepagina .columna-redes .redes { line-height: 3em; }
+  .contenedor .contenedorPiepagina .columna-redes .redes a { font-size: 0.85em; }
+  .contenedor .contenedorPiepagina .columna-redes .redes label { margin-left: 0.75em; }
+  .contenedor .contenedorPiepagina .columna-redes .redes .icono { font-size: 1.5em; }
+  .contenedor .contenedorPiepagina .columna-contacto h2 { font-size: 1.2em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos { line-height: 3em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos a { font-size: 0.85em; margin-left: 0.75em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos label { font-size: 0.85em; margin-left: 0.75em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos .icono { font-size: 1.5em; }
+  .contenedor .contenedorPiepagina .contenedorInformacion { font-size: 0.85em; } }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  Created on : 27/10/2022, 04:38:08 PM Author     : pcgc7
+*/
+/* Dispositivos con orientación horizontal con una resolución de pantalla máxima de 1024px */
+@media screen and (max-width: 1024px) { .contenedor { grid-template-rows: repeat(13, 7em); }
+  .contenedor .encabezado .logo img { width: 21.75%; margin: 1.5em 1em; }
+  .contenedor .contenido { grid-template-rows: repeat(10, 7em); }
+  .contenedor .contenido .imagenFondo { background-size: 100% 100%; }
+  .contenedor .contenido .imagenFondo .fondoMenu .marcoTitulo { margin: 2em 0; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu { margin-top: 1.75em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu .opcion { font-size: 2.5em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu .tituloItem { font-size: 1em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes { max-width: 55em; padding: 2em 0; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .flecha-previo { font-size: 3em; left: -7%; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .flecha-siguiente { font-size: 3em; right: -7%; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items { margin: 4.5em 1.65em; width: 15em; height: 16em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items img { width: 15em; height: 16em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items .overlay { width: 15em; height: 16em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes ul.slick-dots { padding: 0; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .slick-dots { bottom: 1.5em; }
+  .contenedor .contenido .wave { top: -5.75em; }
+  .contenedor .contenedorPiepagina .columna-menu h2 { font-size: 0.9em; }
+  .contenedor .contenedorPiepagina .columna-menu ul { font-size: 0.6em; line-height: 3em; }
+  .contenedor .contenedorPiepagina .columna-redes h2 { font-size: 0.9em; }
+  .contenedor .contenedorPiepagina .columna-redes redes { line-height: 2.45em; }
+  .contenedor .contenedorPiepagina .columna-redes redes a { font-size: 0.6em; }
+  .contenedor .contenedorPiepagina .columna-redes redes .icono { font-size: 1.25em; }
+  .contenedor .contenedorPiepagina .columna-contacto h2 { font-size: 0.9em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos { line-height: 2.45em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos a { font-size: 0.6em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos label { font-size: 0.6em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos .icono { font-size: 1.25em; }
+  .contenedor .contenedorPiepagina .contenedorInformacion { font-size: 0.6em; } }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  Created on : 27/10/2022, 04:41:16 PM Author     : pcgc7
+*/
+/* Dispositivos con orientación horizontal con una resolución de pantalla máxima de 800px */
+@media screen and (max-width: 768px) { .contenedor { grid-template-rows: repeat(13, 5.5em); }
+  .contenedor .encabezado .logo img { width: 24.75%; margin: 1em; }
+  .contenedor .contenido { grid-template-rows: repeat(10, 5.5em); }
+  .contenedor .contenido .imagenFondo .fondoMenu .marcoTitulo { margin: 0.75em 0; }
+  .contenedor .contenido .imagenFondo .fondoMenu .marcoTitulo .titulo { font-size: 0.85em; margin: 1em 0; }
+  .contenedor .contenido .imagenFondo .fondoMenu .marcoTitulo .titulo::after { width: 95%; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu { margin-top: 1.25em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu .item { width: 20%; padding-top: 1.25em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu .item .opcion { font-size: 2em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu .item .tituloItem { font-size: 0.85em; margin: 1em 0; }
+  .contenedor .contenido .carrusel .contenedor-imagenes { max-width: 40em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .flecha-previo { top: 41%; font-size: 2em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .flecha-siguiente { top: 41%; font-size: 2em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items { margin: 4em 0.9em; width: 11.5em; height: 12em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items img { border: 0.25em double #003958; border-radius: 0.5em; padding: 0.25em; width: 11.5em; height: 12em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items .overlay { width: 11.5em; height: 12em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .slick-dots { width: 25%; bottom: 2em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .slick-dots li { width: 0.7em; height: 0.7em; }
+  .contenedor .contenido .wave { top: -4.25em; }
+  .contenedor .contenedorPiepagina .columna-menu h2 { font-size: 0.65em; }
+  .contenedor .contenedorPiepagina .columna-menu ul { padding-left: 0.5em; line-height: 2.75em; font-size: 0.45em; }
+  .contenedor .contenedorPiepagina .columna-redes h2 { font-size: 0.65em; }
+  .contenedor .contenedorPiepagina .columna-redes .redes { line-height: 1.6em; }
+  .contenedor .contenedorPiepagina .columna-redes .redes label { margin-left: 0.5em; }
+  .contenedor .contenedorPiepagina .columna-redes .redes a { font-size: 0.45em; }
+  .contenedor .contenedorPiepagina .columna-redes .redes .icono { font-size: 1em; }
+  .contenedor .contenedorPiepagina .columna-contacto h2 { font-size: 0.65em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos { line-height: 1.6em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos label { margin-left: 0.5em; font-size: 0.45em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos a { margin-left: 0.5em; font-size: 0.45em; }
+  .contenedor .contenedorPiepagina .columna-contacto .datos .icono { font-size: 1em; }
+  .contenedor .contenedorPiepagina .contenedorInformacion { font-size: 0.45em; } }
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  Created on : 27/10/2022, 04:41:53 PM Author     : pcgc7
+*/
+/* Dispositivos con orientación horizontal con una resolución de pantalla máxima de 576px */
+@media screen and (max-width: 576px) { .contenedor { grid-template-rows: repeat(13, 4em); }
+  .contenedor .encabezado .logo img { width: 24.75%; margin: 0.75em; }
+  .contenedor .contenido { grid-template-rows: repeat(10, 4em); }
+  .contenedor .contenido .imagenFondo .fondoMenu .marcoTitulo { margin: 0.5em 0; }
+  .contenedor .contenido .imagenFondo .fondoMenu .marcoTitulo .titulo { font-size: 0.70em; margin: 1em 0; }
+  .contenedor .contenido .imagenFondo .fondoMenu .marcoTitulo .titulo::after { top: -1.45em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu { margin-top: 0.35em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu .item { width: 20%; padding-top: 0.85em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu .item .opcion { font-size: 1.5em; }
+  .contenedor .contenido .imagenFondo .fondoMenu .menu .item .tituloItem { font-size: 0.70em; margin: 1em 0; }
+  .contenedor .contenido .carrusel .contenedor-imagenes { max-width: 30em; padding: 1em 0; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .flecha-previo { font-size: 1.5em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .flecha-siguiente { font-size: 1.5em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items { margin: 3.5em 0.75em; width: 8.5em; height: 8.5em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items img { width: 8.5em; height: 8.5em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .items .overlay { width: 8.5em; height: 8.5em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .slick-dots { bottom: 2em; }
+  .contenedor .contenido .carrusel .contenedor-imagenes .slick-dots li { width: 0.5em; height: 0.5em; }
+  .contenedor .contenido .wave { top: -3.15em; }
+  .contenedor .contenedorPiepagina .columna-logo { display: none; }
+  .contenedor .contenedorPiepagina .columna-logo img { display: none; }
+  .contenedor .contenedorPiepagina .columna-menu { width: 30%; padding-left: 0.5em; }
+  .contenedor .contenedorPiepagina .columna-menu ul { padding-left: 1em; }
+  .contenedor .contenedorPiepagina .columna-redes { width: 30%; padding-left: 0.5em; }
+  .contenedor .contenedorPiepagina .columna-contacto { width: 30%; padding-left: 0.5em; }
+  .contenedor .contenedorPiepagina .contenedorInformacion { margin-top: 1em; } }
+/******************************************************************************/
+
+/*# sourceMappingURL=index.css.map */

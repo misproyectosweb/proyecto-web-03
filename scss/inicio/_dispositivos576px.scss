@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/10/2022, 04:41:53 PM
+    Author     : pcgc7
+*/
+
+/* Dispositivos con orientación horizontal con una resolución de pantalla máxima de 576px */
+@media screen and (max-width: 576px) {    
+    .contenedor  {
+        grid-template-rows: repeat(13, 4em);
+        .encabezado {
+            .logo {
+                img {
+                    width: 24.75%;
+                    margin: 0.75em;
+                }
+            }
+        }
+        .contenido {
+            grid-template-rows: repeat(10, 4em);
+            .imagenFondo {
+                .fondoMenu {
+                    .marcoTitulo {
+                        margin: 0.5em 0;
+                        .titulo {
+                            font-size: 0.70em;
+                            margin: 1em 0;
+                            &::after {
+                                top: -1.45em;
+                            }
+                        }
+                    }
+                    .menu {
+                        margin-top: 0.35em;
+                        .item {
+                            width: 20%;
+                            padding-top: 0.85em;
+                            .opcion {
+                                font-size: 1.5em;
+                            }
+                            .tituloItem {
+                                font-size: 0.70em;
+                                margin: 1em 0;  
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            .carrusel {
+                .contenedor-imagenes {
+                    max-width: 30em;
+                    padding: 1em 0;
+                    .flecha-previo {
+                        font-size: 1.5em;
+                    }
+                    .flecha-siguiente {
+                        font-size: 1.5em;
+                    }
+                    .items {
+                        margin: 3.5em 0.75em;
+                        width: 8.5em;
+                        height: 8.5em;        
+                        img {
+                            width: 8.5em;
+                            height: 8.5em;        
+                        }
+                        .overlay {
+                            width: 8.5em;
+                            height: 8.5em;        
+                        }
+                    }
+                    .slick-dots {
+                        bottom: 2em;
+                        li {
+                            width: 0.5em;
+                            height: 0.5em;
+                        }
+                    }
+                }
+            }
+            .wave {        
+                top: -3.15em;        
+            }
+        }
+        .contenedorPiepagina {
+            .columna-logo {
+                display: none;                
+                img {
+                    display: none;
+                }
+            }
+            .columna-menu {
+                width: 30%;
+                padding-left: 0.5em;
+                ul {
+                    padding-left: 1em;
+                }
+            }
+            .columna-redes {
+                width: 30%;
+                padding-left: 0.5em;
+            }
+            .columna-contacto {
+                width: 30%;
+                padding-left: 0.5em;
+            }
+            .contenedorInformacion {
+                margin-top: 1em;
+            }
+        }
+    }                               
+}

@@ -1,0 +1,41 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/10/2022, 04:24:05 PM
+    Author     : pcgc7
+*/
+
+.marcoTitulo {     
+    margin: 3.5em 0;
+    .titulo {          
+        font-weight: 700;
+        z-index: 60;
+        text-transform: uppercase;
+        margin: 0;
+        
+        /* Recuadro que envuelve el texto del título */
+        span {
+            position: relative;
+            z-index: 50;
+            padding: 0.5em 3em;
+            background-color: $colorAzul;
+            color: $colorDorado;    
+            border-radius: 0.3125em;        
+        }
+        
+        /* Línea creada que acompaña el texto del título */
+        &::after {
+            content: "";
+            display: inline-block;
+            height: 0.125em;
+            width: 90%;
+            background: $colorAzul;
+            position: relative;
+            top: -1.5em;
+            z-index: 40;
+        }
+    }
+}

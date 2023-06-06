@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27/10/2022, 04:41:16 PM
+    Author     : pcgc7
+*/
+
+/* Dispositivos con orientación horizontal con una resolución de pantalla máxima de 800px */
+@media screen and (max-width: 768px) {    
+    .contenedor  {
+        grid-template-rows: repeat(13, 5.5em);
+        .encabezado {
+            .logo {
+                img {
+                    width: 24.75%;
+                    margin: 1em;
+                }
+            }
+        }
+        .contenido {
+            grid-template-rows: repeat(10, 5.5em);
+            .imagenFondo {
+                .fondoMenu {
+                    .marcoTitulo {
+                        margin: 0.75em 0;
+                        .titulo {
+                            font-size: 0.85em;
+                            margin: 1em 0;
+                            &::after {
+                                width: 95%; 
+                            }
+                        }
+                    }
+                    .menu {
+                        margin-top: 1.25em;
+                        .item {
+                            width: 20%;
+                            padding-top: 1.25em;  
+                            .opcion {
+                                font-size: 2em;
+                            }
+                            .tituloItem {
+                                font-size: 0.85em;
+                                margin: 1em 0;
+                            }
+                        }                        
+                    }
+                }
+            }
+            .carrusel {
+                .contenedor-imagenes {
+                    max-width: 40em;
+                    .flecha-previo {
+                        top: 41%;
+                        font-size: 2em;
+                    }
+                    .flecha-siguiente {
+                        top: 41%;
+                        font-size: 2em;
+                    }
+                    .items {
+                        margin: 4em 0.9em;
+                        width: 11.5em;
+                        height: 12em; 
+                        img {
+                            border: 0.25em double $colorAzul;
+                            border-radius: 0.5em;
+                            padding: 0.25em; 
+                            width: 11.5em;
+                            height: 12em; 
+                        }
+                        .overlay {
+                            width: 11.5em;
+                            height: 12em;
+                        }
+                    }
+                    .slick-dots {
+                        width: 25%;
+                        bottom: 2em;
+                        li {
+                            width: 0.7em;
+                            height: 0.7em;
+                        }
+                    }
+                }
+            }
+            .wave {
+                top: -4.25em;
+            }
+        }
+        .contenedorPiepagina {
+            .columna-menu {
+                h2 {
+                    font-size: 0.65em;
+                }
+                ul {
+                    padding-left: 0.5em; 
+                    line-height: 2.75em;
+                    font-size: 0.45em;
+                }                
+            }
+            .columna-redes {
+                h2 {
+                    font-size: 0.65em;
+                }
+                .redes {
+                    line-height: 1.6em;
+                    label {
+                        margin-left: 0.5em;
+                    }
+                    a {
+                        font-size: 0.45em;
+                    }
+                    .icono {
+                        font-size: 1em;
+                    }
+                }
+            }
+            .columna-contacto {
+                h2 {
+                    font-size: 0.65em;
+                }
+                .datos {
+                    line-height: 1.6em;
+                    label {
+                        margin-left: 0.5em;
+                        font-size: 0.45em;
+                    }
+                    a {
+                        margin-left: 0.5em;
+                        font-size: 0.45em;
+                    }
+                    .icono {
+                        font-size: 1em;
+                    }
+                }
+            }
+            .contenedorInformacion {
+                font-size: 0.45em;
+            }
+        }
+    }    
+}
