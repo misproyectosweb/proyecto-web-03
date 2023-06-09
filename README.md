@@ -34,6 +34,8 @@ Para enviar la información del usuario a través del formulario de contacto se 
 - Enviar mensajes de correo en formato HTML 
 - Enviar emails via sendmail, PHP mail(), o con SMTP.
 
+Finalmente, se utiliza una librería JavaScript llamada SweetAlert2 para mostrar al usuario mensajes personalizados que le van a indicar si los datos digitados por el cliente fueron enviados al buzón de correo del restaurante de  correcta o incorrecta.
+
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
 ![01  Inicio_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/3c7c3f92-cffa-47d3-a5fa-814c86780557)
