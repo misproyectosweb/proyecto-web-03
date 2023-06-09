@@ -143,7 +143,7 @@
                     <h2>Información de contacto:</h2>
                     <div class="datos">
                         <i class="icono fab fa-waze"></i>                        
-                        <a href="contacto.html">Moravia, Romeral, diagonal 53</a>                        
+                        <a href="contacto.php">Moravia, Romeral, diagonal 53</a>                        
                     </div>
 
                     <div class="datos">
