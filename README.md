@@ -1,7 +1,8 @@
 # Proyecto web 03
-Sitio web que muestra información variada de una iglesia
+Sitio web que muestra y describe la información de los servicios que ofrece una iglesia
 
-Este sitio web fue creado con:
+Sitio web creado con las siguientes herramientas a nivel de front-end y back-end:
+
 - **HTML:**	Permite crear la estructura del sitio web mediante etiquetas
 - **CSS:**	Para definir y crear la presentación o estética del sitio web
 - **SASS:**	Herramienta que permite extender las características de las hojas de estilo CSS, proveyendo de varios mecanismos, tales como variables, funciones, herencia que están presentes en los lenguajes de programación tradicionales, particularmente lenguajes orientados a objetos, pero este no están disponible para CSS3 como tal.
@@ -29,7 +30,7 @@ Para el formulario de contacto se programaron validaciones tanto del lado del cl
 
 Al implementar la herramienta SASS en este proyecto me permite crear bloques de código CSS, con una sintaxis indentada para separar cada bloque y almacenarlos en archivos separados para posteriormente, llevar a cabo tareas de mantenimiento más fáciles en caso de que se requiera realizar alguna modificación o añadir nuevas líneas de código CSS
 
-Para enviar la información del usuario a través del formulario de contacto se utiliza una herramienta  llamada **PHPMailer.** Esta es una biblioteca de código para enviar correos electrónicos de forma segura y sencilla a través de código PHP desde un servidor web. Además está basada en el componente active server ASPMail y permite de una forma sencilla tareas complejas como por ejemplo:
+Para enviar la información del usuario a través del formulario de contacto se utiliza una herramienta  llamada **PHPMailer.** Esta es una biblioteca de código abierto para enviar correos electrónicos de forma segura y sencilla a través de código PHP desde un servidor web. Además está basada en el componente active server ASPMail y permite de una forma sencilla tareas complejas como por ejemplo:
 - Enviar mensajes de correo con ficheros adjuntos (attachments) 
 - Enviar mensajes de correo en formato HTML 
 - Enviar emails via sendmail, PHP mail(), o con SMTP.
