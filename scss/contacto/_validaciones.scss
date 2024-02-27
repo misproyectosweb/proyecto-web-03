@@ -28,7 +28,7 @@ and open the template in the editor.
     box-shadow: 0.1875em 0 1.875em rgba(163,163,163,0.4);
 }
 .formulario_input_error {
-    font-size: 0.75em;
+    font-size: 0.85em;
     margin: 0;
     padding-left: 0.75em;
     color: $colorRojo;
@@ -68,15 +68,4 @@ and open the template in the editor.
     .formulario_input {
         border: 0.1875em solid $colorRojo;
     }
-} 
-    
-/******************** Estilos para las validaciones en PHP ********************/
-
-.error {
-    background-color: $colorRojo2;
-    @include estadoCampos;
-}
-.correcto {
-    background-color: $colorVerde1; 
-    @include estadoCampos;
 }

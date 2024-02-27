@@ -17,7 +17,7 @@ and open the template in the editor.
 @mixin formatoTexto_2 {
     list-style-type: none;
     position: relative;
-    margin-left: 0.5em;
+    margin-left: -0.75em;
 }
 @mixin formatoTexto_3 {
     font-weight: bold;
@@ -32,8 +32,8 @@ and open the template in the editor.
 .contenido {
     grid-area: texto;  
     
-    margin: 0 auto;
-    max-width: 66.7%;
+    max-width: 70%;
+    margin: 0 auto;    
     padding: 1.25em;
     background: $colorWhitesmoke;
     border-radius: 0.625em;
@@ -45,7 +45,7 @@ and open the template in the editor.
         width: 2.5em;
         height: 2.5em;
         padding: 0.65em 1em;
-        font-size: 1.875em;
+        font-size: 1.5em;
         border-radius: 50%;
         background: $colorAzul;
         color: $colorDorado;
@@ -53,9 +53,14 @@ and open the template in the editor.
         position: fixed;
         bottom: 1em;
         right: 1em;
+        i {
+            position: relative;
+            right: 0.2em;
+        }
     }
     article {
         h1 {
+            font-size: 2em;
             font-weight: bold;
             margin: 0.3125em 0;
             color: $colorAzul;
@@ -67,22 +72,22 @@ and open the template in the editor.
             border: none;
         }
         p {
-            text-indent: 1.5em;
-            text-align: justify;
+/*            text-indent: 1.5em;*/
+/*            text-align: justify;*/
             margin: 0.5em 0;
         }
         
         /* Agrega distintos tipos de formatos y caracteristicas especiales al texto */
         .textoVinetas1 {
-            @include formatoTexto_1(0.3em);
+            @include formatoTexto_1(-1em);
         }
         .textoVinetas2 {
-            @include formatoTexto_1(0.3em, square);
+            @include formatoTexto_1(-1em, square);
         }
         .textoGrande {
             background: $colorWhitesmoke;
-            width: 10.5em;
-            height: 10.5em;
+            width: 9.75em;
+            height: 9.75em;
             float: left;
             margin: 0 0.5em;
             padding-right: 0.5em;

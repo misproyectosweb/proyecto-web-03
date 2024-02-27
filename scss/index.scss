@@ -19,15 +19,13 @@ and open the template in the editor.
 /******************** Estilos contenedor de la página *************************/
 
 @import "inicio/_contenedor.scss";
-
-/******************** Estilos sección loader **********************************/
-
-/*@import "inicio/_preloader.scss";*/
        
 /******************** Estilos para dispositivos móviles ***********************/
 
-@import "inicio/_dispositivos1280px.scss";
-@import "inicio/_dispositivos1024px.scss";
+@import "inicio/_dispositivos1648px.scss";
+@import "inicio/_dispositivos1424px.scss";
+@import "inicio/_dispositivos1200px.scss";
+@import "inicio/_dispositivos992px.scss";
 @import "inicio/_dispositivos768px.scss";
 @import "inicio/_dispositivos576px.scss";
 

@@ -12,6 +12,7 @@ and open the template in the editor.
 
 @mixin cuadrosInput {
     font-family: Arial, sans-serif;
+    font-size: 1em;
     width: 95%;
     margin: 0.5em;
     padding: 0.5em;
@@ -37,17 +38,22 @@ and open the template in the editor.
         align-content: flex-start;
         background: $colorSilver;
         border-radius: 0.3125em;
+        .grupo {
+            margin-bottom: 1em;
+        }
         h3 {
+            font-size: 1.15em;
             padding-left: 0.5em;
             color: $colorAzul;
         }
         .frmLabel {
+            font-size: 1em;
             padding-left: 0.5em;
             color: $colorAzul;
             font-weight: 700;
         }
         input[type=text] {
-            height: 2.85em;
+            height: 2.75em;
             @include cuadrosInput; 
         }
         textarea {
@@ -56,8 +62,9 @@ and open the template in the editor.
         }
         .frmBoton {
             width: 30%;
-            height: 2.85em;
+            height: 2.75em;
             margin: 0.5em;
+            font-size: 1em;
             line-height: 1.75em;
             border: 0.125em solid $colorAzul;
             background-color: $colorSilver;

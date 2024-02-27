@@ -13,17 +13,16 @@ and open the template in the editor.
 
     display: grid;    
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(10, 10.5em);
+    grid-template-rows: repeat(9, 10.5em);
                 
     grid-template-areas:    
     "opciones   opciones   opciones   opciones   opciones   opciones"
     "opciones   opciones   opciones   opciones   opciones   opciones"
-    "opciones   opciones   opciones   opciones   opciones   opciones"
-    "opciones   opciones   opciones   opciones   opciones   opciones"
-    "opciones   opciones   opciones   opciones   opciones   opciones"        
+    "opciones   opciones   opciones   opciones   opciones   opciones"    
+    "opciones   opciones   opciones   opciones   opciones   opciones"  
+    "opciones   opciones   opciones   opciones   opciones   opciones"  
     "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes"
-    "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes"
-    "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes"  
+    "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes"    
     "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes"
     "imagenes   imagenes   imagenes   imagenes   imagenes   imagenes";
     
@@ -34,10 +33,6 @@ and open the template in the editor.
     /******************** Estilos carrusel de imágenes ************************/
     
     @import "_carruselImagenes.scss";
-    
-    /******************** Estilos para el efecto de onda **********************/
-    
-    @import "_efectoOnda.scss";
-    
-    /**************************************************************************/
+              
+    /**************************************************************************/  
 }

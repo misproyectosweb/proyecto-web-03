@@ -10,19 +10,20 @@ and open the template in the editor.
 
 .encabezado {
     grid-area: encabezado;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
                     
     width: 100%;    
     z-index: 80; 
     background: $gradiente;
     box-shadow: $sombra;
-    .logo {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
+    .logo {        
         img {
-            width: 15.75%;
-            margin: 2.25em 1.25em;
+            width: 65%;
+            padding-left: 1em;
         }
     }
 }

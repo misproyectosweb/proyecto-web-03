@@ -11,37 +11,36 @@ and open the template in the editor.
 /********************************* Mixin **************************************/
 
 @mixin columna {
-    width: 23%;
-    height: auto; 
+    width: 25%;
+    margin-bottom: 1em;
 }
 @mixin tituloH2 {
-    margin: 1em 0;    
+    font-size: 1em;
+    margin-top: 0;    
     font-weight: 600;
     color: $colorDorado;
 }
 @mixin iconos {
     width: 1.25em;                                          
-    font-size: 2em;                                         
-    text-align: center;
+    font-size: 1.25em;                                         
+    text-align: center
 }
 @mixin estilosFlex {
     display: flex;
     flex-direction: row;    
-    align-items: center;
-    line-height: 3.5em; 
+    align-items: center;    
 }
 
 /******************************************************************************/
 
 .columna-logo {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;    
     align-items: center;
     
-    @include columna;    
+    width: 25%;
     img {
-        width: 68%;
+        width: 45%;
     }
 }
 .columna-menu {
@@ -50,10 +49,17 @@ and open the template in the editor.
         @include tituloH2;        
     }
     ul {
-        padding: 0;
-        margin: 0 1.25em; 
-        line-height: 2.65em;  
-        color: $colorBlanco;
+        display: flex;
+        flex-direction: column;    
+        align-items: flex-start;
+
+        font-size: 0.8em;
+        margin: 0 1em; 
+        padding-left: 0.75em;
+        line-height: 2em; 
+        li {
+            color: $colorBlanco;
+        }
     }
     a {
         text-decoration: none;
@@ -69,21 +75,21 @@ and open the template in the editor.
         @include tituloH2;        
     }
     .redes {
-        @include estilosFlex;                
+        @include estilosFlex;  
+        font-size: 0.8em;
+        line-height: 2.75em;
         .icono {
             color: $colorBlanco;
             @include iconos;            
         }
         a {
             text-decoration: none;
-            label {
-                margin-left: 1em;
-                color: $colorBlanco;
-                &:hover {
-                    color: $colorDorado;
-                }
-            }
-        }
+            margin-left: 1em;
+            color: $colorBlanco;
+            &:hover {
+                color: $colorDorado;
+            }            
+        }        
     }
 }
 .columna-contacto {
@@ -94,6 +100,8 @@ and open the template in the editor.
     .datos {
         @include estilosFlex;        
         color: $colorBlanco;
+        font-size: 0.8em;
+        line-height: 2.75em;
         a {
             text-decoration: none;
             margin-left: 1em;
@@ -107,6 +115,7 @@ and open the template in the editor.
         }
         label {
             margin-left: 1em;
+            color: $colorBlanco;
         }
     }
 }

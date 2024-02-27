@@ -10,23 +10,17 @@ and open the template in the editor.
 
 .contenedorPiepagina {
     grid-area: piepagina;
-    
-    display: flex;    
-    flex-direction: row;
-    justify-content: space-between;    
-    align-items: center;
-    flex-wrap: wrap;
-    
+                
     background: $colorAzul;
     z-index: 20;
+            
+    /******************** Estilos contenedor pie de página **********************/
     
-    /******************** Estilos columnas pie de página **********************/
-    
-    @import "_columnasFooter.scss";    
+    @import "_contenidoFooter.scss";
     
     /******************** Estilos barra de información ************************/
     
     @import "_barraInformacion.scss"; 
-    
-    /**************************************************************************/
+  
+    /**************************************************************************/                       
 }

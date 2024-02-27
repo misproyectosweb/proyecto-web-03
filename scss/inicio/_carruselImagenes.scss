@@ -16,51 +16,63 @@ and open the template in the editor.
     z-index: 30;
     color: $colorAzul;
     width: 1.5em;
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
     &:hover {
         cursor: pointer;
         color: $colorDorado; 
     }
 }
-@mixin tamanoImagen {
-    width: 22em;
-    height: 22em;
+@mixin anchoImagen {
+    width: 85%;
+}
+@mixin altoImagen {
+    height: 85%;
 }
 
 /******************************************************************************/
 
 .carrusel {
     grid-area: imagenes;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
                 
     background-image: $imgBackground_2;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     .contenedor-imagenes {               
-        max-width: 85em;
-        height: auto;
-        margin: 0 auto;
-        padding: 5em 0;
+        max-width: 85%;        
         .items {
-            @include tamanoImagen;            
-            margin: 4.375em 3.25em;     
+            @include anchoImagen;  
+            @include altoImagen;
+            margin: 3.5em 2.15em; 
             position: relative;
             img {
-                @include tamanoImagen;                
+                @include anchoImagen;  
+                @include altoImagen;
                 border: 0.5em double $colorAzul;
                 border-radius: 0.5em;
                 padding: 0.5em;
                 transition: all linear .4s;                
             }
             .overlay {
+                @include anchoImagen;
+                height: 100%;
                 position: absolute;
                 top: 0;
-                left: 0;
-                @include tamanoImagen;                
+                left: 0;                               
                 border-radius: 0.5em;    
                 background: rgba(0, 0, 0, 0.5);
             }            
+        }
+        ul {
+            &.slick-dots {
+                padding: 0;
+            }
         }
         .slick-center {
             .overlay {
@@ -74,23 +86,23 @@ and open the template in the editor.
             @include flechas;
         }
         .flecha-previo {             
-            left: -10%;            
+            left: -8%;            
         }
         .flecha-siguiente {            
-            right: -10%;            
+            right: -8%;            
         }        
         .slick-dots {
             position: relative;
             bottom: 0;
             left: 0;
-            width: 15%;
+            width: 30%;
             z-index: 30;
             text-align: center;
             margin: 0 auto;
             li {
                 list-style: none;
-                width: 1em;
-                height: 1em;
+                width: 0.75em;
+                height: 0.75em;
                 background: $colorAzul;
                 border-radius: 50%;
                 display: inline-block;

@@ -14,8 +14,8 @@ $(function(){
         icono = $('#btnMenu .icono');
 
     //Agregamos un condicional para comprobar si actualmente la página se encuentra en un tamaño menor
-    //a 576px, se procede a ocultar los enlaces
-    if(ancho < 576){
+    //a 768px, se procede a ocultar los enlaces
+    if(ancho < 768){
         enlaces.hide();
         icono.addClass('fa-bars');        
     }
@@ -34,7 +34,7 @@ $(function(){
     $(window).on('resize', function(){
         
        //Pregunta por el tamaño del ancho de la ventana que está actualmente
-       if($(this).width() > 576) {
+       if($(this).width() > 768) {
            enlaces.show();
            icono.addClass('fa-times');
            icono.removeClass('fa-bars');

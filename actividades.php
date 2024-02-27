@@ -7,9 +7,9 @@
         <title>Actividades</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>      
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="imagenes/icono_iglesia.png"/>
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconoIglesia.png"/>
         <link href="librerias/normalize.css" rel="stylesheet" type="text/css"/>        
         <link href="css/actividades.css" rel="stylesheet" type="text/css"/>
     </head>
@@ -33,7 +33,7 @@
                 </nav>                                                    
                 <!-- ***** Fin sección menú de opciones ***** -->
                 
-            </header>                        
+            </header>                      
                                                 
             <!-- ***** Inicio sección principal ***** -->
             <main class="contenido">
@@ -173,62 +173,24 @@
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit.</p>
                             </div>                      
                         </div>
+                        
                         <div class="grupoCuatro">
-<!--                            <h2>Los cumpleañeros del mes:</h2>
-                            <div class="actividad">
-                                <div>
-                                    <div class="dia">11</div>
-                                    <div class="mes" id="mes"></div>
-                                </div>
-                                <i class="fas fa-birthday-cake"></i>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="actividad">
-                                <div>
-                                    <div class="dia">20</div>
-                                    <div class="mes" id="mes"></div>
-                                </div>
-                                <i class="fas fa-birthday-cake"></i>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="actividad">
-                                <div>
-                                    <div class="dia">29</div>
-                                    <div class="mes" id="mes"></div>
-                                </div>
-                                <i class="fas fa-birthday-cake"></i>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="actividad">
-                                <div>
-                                    <div class="dia">29</div>
-                                    <div class="mes" id="mes"></div>
-                                </div>
-                                <i class="fas fa-birthday-cake"></i>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>                        
-                            </div>
-                            <div class="actividad">
-                                <div>
-                                    <div class="dia">30</div>
-                                    <div class="mes" id="mes"></div>
-                                </div>
-                                <i class="fas fa-birthday-cake"></i>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </div> -->
+                            <!-- Espacio para otra actividad-->
                         </div>
+                        
                     </div>
                     <hr>                    
                     <div class="contenedorOtrasActividades">
-                        <div class="detalleActividad">                                                    
+                        <div class="grupoCinco">                                                    
                             <h2>Otras actividades:</h2>
-                            <div class="actividades">
+                            <div class="actividad item">
                                 <div>
                                     <div class="dia">19</div>
                                     <div class="mes">Setiembre</div>
                                 </div>                            
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
-                            <div class="actividades">
+                            <div class="actividad item">
                                 <div>
                                     <div class="dia">15</div>
                                     <div class="mes">Noviembre</div>
@@ -247,9 +209,9 @@
                         <div class="contenedor-img">
                             <img src="" alt="" class="img-mostrar">
                             <i class="btn fas fa-times"></i>
-                            <p class="texto"></p>
+<!--                            <p class="texto"></p>-->
                         </div>                       
-                    </div>                                        
+                    </div>                                       
                 </section>
             </main>
             <!-- ***** Fin sección principal ***** -->

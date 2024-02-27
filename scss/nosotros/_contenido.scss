@@ -12,7 +12,7 @@ and open the template in the editor.
     grid-area: texto;   
     
     margin: 0 auto;
-    max-width: 66.7%;
+    max-width: 70%;
     padding: 1.25em;
     background: $colorWhitesmoke;
     border-radius: 0.625em;
@@ -21,6 +21,7 @@ and open the template in the editor.
     
     article {
         h1 {
+            font-size: 2em;
             font-weight: bold;
             margin: 0.3125em 0;
             color: $colorAzul;
@@ -39,7 +40,7 @@ and open the template in the editor.
         figure {
             margin: 0;
             img {
-                width: 25.5%;
+                width: 25%;
                 float: left;
                 padding-right: 1em;
                 padding-bottom: 1em;

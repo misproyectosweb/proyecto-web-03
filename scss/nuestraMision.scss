@@ -15,8 +15,8 @@ and open the template in the editor.
 /******************** Estilos generales de la página **************************/
 
 body {    
-    font-family: $tipoFuente1;
-    background-image: $rutaImgMagenta;    
+    font-family: $tipoFuente_1;
+    background-image: $rutaImgMagenta;
     @import "nosotros/_estilosGenerales.scss";
 }
 
@@ -26,8 +26,10 @@ body {
 
 /******************** Estilos para dispositivos móviles ***********************/
 
-@import "nosotros/_dispositivos1280px.scss";
-@import "nosotros/_dispositivos1024px.scss";
+@import "nosotros/_dispositivos1648px.scss";
+@import "nosotros/_dispositivos1424px.scss";
+@import "nosotros/_dispositivos1200px.scss";
+@import "nosotros/_dispositivos992px.scss";
 @import "nosotros/_dispositivos768px.scss";
 @import "nosotros/_dispositivos576px.scss";
 

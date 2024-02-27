@@ -15,6 +15,7 @@ and open the template in the editor.
     flex-direction: column;  
 }
 @mixin tituloH2 {
+    font-size: 1.5em;
     margin: 0.5em 0;
     color: $colorAzul;
 }
@@ -25,7 +26,7 @@ and open the template in the editor.
     justify-items: center;
     align-items: center;
     text-align: justify;
-    border-bottom: 1px solid $colorSilver;    
+    border-bottom: 0.0625em solid $colorSilver;    
 }
 @mixin diaActividad {
     font-size: 2em;
@@ -42,7 +43,7 @@ and open the template in the editor.
 .contenido {
     grid-area: actividad;  
     
-    max-width: 66.7%;
+    max-width: 70%;
     margin: 0 auto;
     padding: 1.25em;
     background: $colorWhitesmoke;
@@ -51,12 +52,13 @@ and open the template in the editor.
     box-shadow: $sombra;
     
     h1 {
+        font-size: 2em;
         font-weight: bold;
         margin: 0.3125em 0;
         color: $colorAzul;
     }
     hr {
-        margin: 0.5em 0;
+        margin-bottom: 1.5em;
         height: 0.2em;
         background: $colorDorado;
         border: none;
@@ -111,7 +113,7 @@ and open the template in the editor.
         h2 {
             @include tituloH2;
         }        
-        .actividades {
+        .actividad {
             @include gridActividad(1);            
             grid-template-columns: 6em 1fr;                                
             
@@ -164,7 +166,7 @@ and open the template in the editor.
         
         /* Definimos el tamaño de la imagen que se va a agrandar cuando la escojamos */
         .img-mostrar {
-            height: 80%;
+            height: 95%;
             transform: scale(0);
             display: block;
             object-fit: cover;

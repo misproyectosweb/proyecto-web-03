@@ -9,9 +9,11 @@ and open the template in the editor.
 */
 
 .contenedor {
-    display: grid;    
+    display: grid;   
+    
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 16em repeat(9, 1fr);    
+    grid-template-rows: 15em repeat(10, 1fr);   
+    
     grid-template-areas:
     "encabezado encabezado encabezado encabezado encabezado encabezado"
     "contacto   contacto   contacto   contacto   contacto   contacto"

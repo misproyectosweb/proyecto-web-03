@@ -7,9 +7,9 @@
         <title>Reflexión</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>    
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="imagenes/icono_iglesia.png"/>
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconoIglesia.png"/>
         <link href="librerias/normalize.css" rel="stylesheet" type="text/css"/>
         <link href="css/reflexiones.css" rel="stylesheet" type="text/css"/>
     </head>

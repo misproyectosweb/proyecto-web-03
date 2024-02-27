@@ -11,14 +11,19 @@ and open the template in the editor.
 .menu {
     display: flex;    
     flex-direction: row;
-    justify-content: space-around;
-    
+    justify-content: space-around;    
     align-items: center;
-    margin-top: 4em;
-    .item {            
-        height: 100%;
-        width: 15%;
-        padding-top: 1.5em;                                       
+    margin-top: 8em;
+    .item {   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 20%;
+        height: 100%;        
+        padding-top: 2em;
+        padding-bottom: 1em;
         text-align: center;
         text-decoration: none;    
         color: $colorAzul;

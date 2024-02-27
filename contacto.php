@@ -7,9 +7,9 @@
         <title>Contacto</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>       
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <link rel="shortcut icon" type="image/x-icon" href="imagenes/icono_iglesia.png"/>
+        <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconoIglesia.png"/>
         <link href="librerias/normalize.css" rel="stylesheet" type="text/css"/>
         <link href="librerias/sweetalert2.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/contacto.css" rel="stylesheet" type="text/css"/>
@@ -39,7 +39,7 @@
                 <nav class="menu" id="menu">
                     <a href="nuestraVision.php"><i class="fas fa-church"></i>Quiénes somos</a>
                     <a href="reflexiones.php"><i class="fas fa-envelope-open-text"></i>Reflexiones</a>
-                    <a href="actividades.php"><i class="far fa-calendar-alt"></i>Actividades</a>
+                    <a href="actividades.php"><i class="far fa-calendar-alt"></i>Actividades</a>                    
                     <a href="index.php"><i class="fas fa-sign-out-alt"></i>Salir</a>
                 </nav>
                 <!-- ***** Fin sección menú de opciones ***** -->
@@ -60,7 +60,7 @@
                                 <div class="formulario_grupo_input">
                                     <label for="nombre" class="frmLabel">Nombre:</label>
                                     <input type="text" class="formulario_input" id="nombre" name="nombre" value="<?php if(isset($nombre)){ echo $nombre; } ?>"
-                                           placeholder="Escribe tu nombre aquí">
+                                           placeholder="Escribe tu nombre aquí" required>
                                     <i class="formulario_validacion_estado fas fa-times-circle"></i>
                                 </div>
                                 <p class="formulario_input_error">Error: Debes agregar nombre y dos apellidos y solamente se permiten letras</p>
@@ -71,7 +71,7 @@
                                 <div class="formulario_grupo_input">
                                     <label for="telefono" class="frmLabel">Teléfono:</label>
                                     <input type="text" class="formulario_input" id="telefono" name="telefono" value="<?php if(isset($telefono)){ echo $telefono; } ?>"
-                                           placeholder="22223333">
+                                           placeholder="22223333" required>
                                     <i class="formulario_validacion_estado fas fa-times-circle"></i>
                                 </div>
                                 <p class="formulario_input_error">Error: No se permiten letras, espacios ni símbolos como número telefónico</p>
@@ -82,7 +82,7 @@
                                 <div class="formulario_grupo_input">
                                     <label for="correo" class="frmLabel">Correo:</label>
                                     <input type="text" class="formulario_input" id="correo" name="correo" value="<?php if(isset($correo)){ echo $correo; }?>"
-                                           placeholder="correo@correo.com">
+                                           placeholder="correo@correo.com" required>
                                     <i class="formulario_validacion_estado fas fa-times-circle"></i>
                                 </div>
                                 <p class="formulario_input_error">Error: Has escrito mal tu dirección de correo</p>
@@ -141,11 +141,12 @@
             </main>
             <!-- ***** Fin sección principal ***** -->
             
-            <!-- ***** Archivos javascript ***** -->            
+            <!-- ***** Archivos javascript ***** -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
             <script src="librerias/sweetalert2.all.min.js" type="text/javascript"></script>
             <script src="javascript/menu.js" type="text/javascript"></script>            
             <script src="javascript/validaciones.js" type="text/javascript"></script>
+        
         </div>
         
         <?php

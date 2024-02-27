@@ -8,54 +8,83 @@ and open the template in the editor.
     Author     : pcgc7
 */
 
-/* Dispositivos con orientación horizontal y una resolución de pantalla máxima de 768px */
-@media screen and (max-width: 768px) {
+/* Estilos para dispositivos con tamaño de pantalla mayor a 576px y menor que 768px */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
     .contenedor {
-        grid-template-rows: 9em repeat(9, 1fr);
+        grid-template-rows: 7em repeat(10, 1fr);
         .encabezado {
-            .logo {
+            .logo {                
                 img {
-                    width: 45%;
+                    width: 40%;
+                    padding: 1em;
                 }
+/*                .btnMenu {
+                    display: inline-block;
+                    font-size: 1.5em;
+                    padding-right: 1em;
+                }*/
             }
             .menu {
                 a {
-                    font-size: 0.6em; 
+                    font-size: 0.75em;
+                    padding: 0.5em 1em;
+                    i {
+                        margin-right: 0.75em;
+                    }
                 }
             }
         }
         .contenido {
-            padding: 0.5em;
+            max-width: 85%;
             h1 {
                 font-size: 1.25em;
             }
+            hr {
+                height: 0.1em; 
+                margin-bottom: 0.5em; 
+            }                                    
             .contenedorActividades {
+                display: flex;
+                flex-direction: column;
                 grid-gap: 0 0.5em;
+                
                 h2 {
-                    font-size: 1em; 
+                    font-size: 0.85em; 
+                }
+                .grupoUno {
+                    border-bottom: 0.125em solid $colorDorado;
+                    padding-bottom: 0.5em;
+                }
+                .grupoDos {                    
+                    h2 {
+                        margin-top: 1.25em;
+                    }
                 }
                 .actividad {
                     font-size: 0.6em;
                 }
-            }
+            }                        
             .contenedorOtrasActividades {
+                display: flex;
+                flex-direction: column;
+                
                 h2 {
-                    font-size: 1em; 
+                    font-size: 0.85em; 
                 }
-                .actividades {
+                .actividad {
                     font-size: 0.6em;
-                }
-                .actividadEspecial {
-                    .imgActividad {
-                        height: 100%;
-                    }
-                }
-                .texto {
-                    bottom: 2em;
+                }                
+                .img-mostrar {
+                    height: 65%;
                 }
                 .btn {
                     font-size: 1.5em;
                 }
+                
+/*                .texto {
+                    bottom: 2em;
+                }*/
+                                
             }
         }
     }    

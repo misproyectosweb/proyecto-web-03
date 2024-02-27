@@ -49,7 +49,7 @@ const agregarImagen = (srcImg, altImg) => {
     mostrarImg.src = srcImg;
     
     // Para mostrar el texto de la imagen elegida
-    textoImagen.innerHTML = altImg;
+//    textoImagen.innerHTML = altImg;
 };
 
 // Se crea esta función para cerrar el contenedor de las imagenes de la galería pulsando en cualquier

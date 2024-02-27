@@ -11,10 +11,12 @@ and open the template in the editor.
 /****************************** Mixin *****************************************/
 
 @mixin tituloH3 {
+    font-size: 1.15em;
     padding: 0 0.5em;
     color: $colorAzul;
 }
 @mixin parrafoP {
+    font-size: 1em;
     font-weight: 700;
     color: $colorAzul;
 }
@@ -40,7 +42,8 @@ and open the template in the editor.
         .mapa {
             padding: 0 0.5em;
             iframe {
-                height: 21.25em;
+                height: 25em;
+                width: 100%;
             }
         }
     }
@@ -58,7 +61,7 @@ and open the template in the editor.
             align-items: center;
             .icono {
                 margin: 0 auto;
-                font-size: 2em;
+                font-size: 1.75em;
                 color: $colorAzul;
             }
         }

@@ -11,7 +11,7 @@ and open the template in the editor.
 .contenido {
     grid-area: contacto;   
     
-    max-width: 66.7%;
+    max-width: 70%;
     margin: 0 auto;
     padding: 1.25em;
     background: $colorWhitesmoke;
@@ -20,12 +20,13 @@ and open the template in the editor.
     box-shadow: $sombra;
     
     h1 {
+        font-size: 2em;
         font-weight: bold;
         margin: 0.3125em 0;
         color: $colorAzul;
     }
     hr {
-        margin: 0.5em 0;
+        margin-bottom: 1.5em;
         height: 0.2em;
         background: $colorDorado;
         border: none;

@@ -8,32 +8,40 @@ and open the template in the editor.
     Author     : pcgc7
 */
 
-/* Dispositivos con orientación horizontal y una resolución de pantalla máxima de 576px */
-@media screen and (max-width: 576px) {
+/* Estilos para dispositivos con tamaño de pantalla máximo de 576px */
+@media screen and (max-width: 575.98px) {
     .contenedor {
-        grid-template-rows: 5.25em repeat(9, 1fr);
+        grid-template-rows: 5.75em repeat(10, 1fr);
         .encabezado {
-            .logo {
-                justify-content: space-between;
-                margin-right: 1em;
+            .logo {                
                 img {
                     width: 35%;
-                    margin: 0.75em; 
+                    padding: 1em;
                 }
                 .btnMenu {
                     display: inline-block;
-                    font-size: 1.25em;
+                    font-size: 1.5em;
+                    padding-right: 1em;
                 }
             }
             .menu {
                 a {
-                    margin: 0.3em 1em;
+                    font-size: 0.75em;
+                    padding: 0.5em 1em;
+                    i {
+                        margin-right: 0.75em;
+                    }
                 }
             }
         }
         .contenido {
+            max-width: 85%;
             h1 {
                 font-size: 1em;
+            }
+            hr {
+                height: 0.1em; 
+                margin-bottom: 0.5em; 
             }
             .contenedorActividades {
                 h2 {
@@ -47,16 +55,21 @@ and open the template in the editor.
                 h2 {
                     font-size: 0.85em; 
                 }
-                .actividades {
+                .actividad {
                     font-size: 0.5em;
                 }
-                .texto {
-                    font-size: 0.7em;
-                    bottom: 1.5em;
+                .img-mostrar {
+                    height: 55%;
                 }
                 .btn {
                     font-size: 1.5em;
                 }
+                
+/*                .texto {
+                    font-size: 0.7em;
+                    bottom: 1.5em;
+                }*/
+                
             }
         }
     }    

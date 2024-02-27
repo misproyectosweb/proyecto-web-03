@@ -12,6 +12,8 @@ and open the template in the editor.
     grid-area: opciones;
             
     display: flex;    
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center; 
     
     background-image: $imgBackground_1;
@@ -20,7 +22,7 @@ and open the template in the editor.
     background-position: center;
     
     z-index: 70;
-    box-shadow: $sombra;
+/*    box-shadow: $sombra;*/
     
     /******************** Estilos fondo menú de opciones **********************/
     
@@ -33,6 +35,6 @@ and open the template in the editor.
     /******************** Estilos menu de opciones ****************************/
     
     @import "_menu.scss";
-    
+                    
     /**************************************************************************/
 }

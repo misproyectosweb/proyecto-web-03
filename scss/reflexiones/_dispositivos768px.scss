@@ -8,64 +8,82 @@ and open the template in the editor.
     Author     : pcgc7
 */
 
-/* Dispositivos con orientación horizontal y una resolución de pantalla máxima de 768px */
-@media screen and (max-width: 768px) {
+/* Estilos para dispositivos con tamaño de pantalla mayor a 576px y menor que 768px */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
     .contenedor {
-        grid-template-rows: 9em repeat(9, 1fr);
+        grid-template-rows: 9.25em repeat(10, 1fr);
         .encabezado {
-            .logo {
+            .logo {                
                 img {
-                    width: 45%;
+                    width: 40%;
+                    padding: 1em;
                 }
+/*                .btnMenu {
+                    display: inline-block;
+                    font-size: 1.5em;
+                    padding-right: 1em;
+                }*/
             }
             .menu {
                 a {
-                    font-size: 0.7em;
+                    font-size: 0.75em;
+                    padding: 0.5em 1em;
+                    i {
+                        margin-right: 0.75em;
+                    }
                 }
             }
         }
-        .contenido {                    
-            .btnVolverArriba {
-                font-size: 1.25em;                   
-                bottom: 0.5em;                       
-                right: 0.35em;                       
+        .contenido {
+            max-width: 85%;
+            .btnVolverArriba {         
+                font-size: 1em;                                    
+                right: 0.3em; 
+                i {
+                    position: relative;
+                    right: 0.2em;
+                }
             }
             article {
                 h1 {
-                   font-size: 1.25em; 
+                    font-size: 1em; 
                 }
                 hr {
-                   margin-bottom: 0.75em; 
+                    height: 0.1em; 
+                    margin-bottom: 0.5em; 
                 }
                 h3 {
-                    font-size: 0.85em;
+                    font-size: 0.65em;
                 }
                 p {
-                    font-size: 0.75em;
+                    font-size: 0.65em; 
                 }
                 .formatoNumeros {
-                    font-size: 0.75em;
-                    margin-left: -1.45em;
+                    font-size: 0.65em;
+                    margin-left: -2.75em;
                 }
                 .formatoLetras {
-                    font-size: 0.75em;
-                    margin-left: -1.45em;
+                    font-size: 0.65em;
+                    margin-left: -2.75em;
                 }
                 .textoVinetas1 {
-                    font-size: 0.75em;
-                    margin-left: -1em;
+                    font-size: 0.65em;
+                    margin-left: -2.25em;
                 }
                 .textoVinetas2 {
-                    font-size: 0.75em;
-                    margin-left: -1em;
+                    font-size: 0.65em; 
+                    margin-left: -2.25em;
                 }
                 blockquote {
-                    font-size: 0.75em;
+                    font-size: 0.65em; 
                 }
-                .textoGrande {        
-                    font-size: 1.25em;                                       
+                .textoGrande {
+                    width: 5.5em;                                         
+                    height: 5.5em; 
+                    font-size: 2em;  
+                    border-right: 0.125em solid $colorDorado;
                 }
-            }
-        }     
-    }    
+            }        
+        }
+    }
 }
