@@ -39,11 +39,11 @@ Finalmente, se utiliza una librería JavaScript llamada **SweetAlert2** para mos
 
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
+![01  Inicio_3](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/4b72804f-e354-4afe-b913-33330f112a87)
+**==========================================================================**
 ![01  Inicio_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/f3c43b6a-91ab-4564-a1c3-70cb008803a9)
 **==========================================================================**
 ![01  Inicio_2](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/41262a29-5bd9-4864-a78c-91dd1d6db808)
-**==========================================================================**
-![01  Inicio_3](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/4b72804f-e354-4afe-b913-33330f112a87)
 **==========================================================================**
 ![02  quienessomos_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/27e5ffe5-cf72-4380-8a0a-1c371e581d67)
 **==========================================================================**
