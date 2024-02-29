@@ -39,52 +39,61 @@ Finalmente, se utiliza una librería JavaScript llamada **SweetAlert2** para mos
 
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
-![01  Inicio_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/3c7c3f92-cffa-47d3-a5fa-814c86780557)
+![01  Inicio_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/f3c43b6a-91ab-4564-a1c3-70cb008803a9)
 **==========================================================================**
-![01  Inicio_2](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/341d8193-f791-4863-88d0-98d0ede2d908)
+![01  Inicio_2](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/41262a29-5bd9-4864-a78c-91dd1d6db808)
 **==========================================================================**
-![01  Inicio_3](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/4e3beb7b-29b5-49e1-982a-adad9bb9fdbf)
+![01  Inicio_3](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/4b72804f-e354-4afe-b913-33330f112a87)
 **==========================================================================**
-![01  Inicio_4](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/ed6c2453-1beb-4afc-bc04-164bb7031496)
+![02  quienessomos_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/27e5ffe5-cf72-4380-8a0a-1c371e581d67)
 **==========================================================================**
-![02  QS_Nuestra visión_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/f08a296a-20b0-4cb7-8ff1-3d84f395c786)
+![02  quienessomos_2](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/4591112e-1df7-420d-b85c-5a7736fefda6)
 **==========================================================================**
-![02  QS_Nuestra visión_2](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/b64deb3e-f29c-4b2e-be47-174f2755f9bd)
+![02  quienessomos_3](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/a6b8f967-986b-473f-a59b-8e3afd5ba89f)
 **==========================================================================**
-![03  QS_Nuestra misión](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/1e097139-983f-4571-98b1-cfaf5450dc95)
+![02  quienessomos_4](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/269b0663-67a6-4df6-8017-d759577b395f)
 **==========================================================================**
-![04  QS_Nuestro perfil](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/ee00678a-4134-4f06-b602-deafdff60989)
+![02  quienessomos_5](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/f64b13e3-2180-44e1-be8e-0b49e92b3e8e)
 **==========================================================================**
-![05  QS_Nuestra vivenciaReino](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/74bcf401-d710-46b3-9691-e8fa1264b4e4)
+![02  quienessomos_6](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/fa0bc193-42e5-4038-8c30-012fe5b90fa4)
 **==========================================================================**
-![06  QS_Nuestros valores](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/68863bdb-c5db-4fda-9a4a-f61ea219a8ac)
+![02  quienessomos_7](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/fcc05193-fe92-43d0-b353-00a039321295)
 **==========================================================================**
-![07  QS_Nuestra estrategia](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/caaead72-b388-40c0-ac40-cb9b7effac54)
+![02  quienessomos_8](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/02855d32-032e-4edf-82ed-db3a0c434b37)
 **==========================================================================**
-![08  Reflexión_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/d56e530f-6891-402f-bb29-5ce9ddd9f295)
+![02  quienessomos_9](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/4da01e15-b403-4a43-a1e0-e793b205846c)
 **==========================================================================**
-![08  Reflexión_2](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/07e861c8-7ae1-49e5-b037-5d7aa61c2385)
+![02  quienessomos_10](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/c5028f4a-5779-467c-b6ca-c0a403ad4d9d)
 **==========================================================================**
-![08  Reflexión_3](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/20d9a40f-ce99-456e-b7d6-90295faadfa7)
+![02  quienessomos_11](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/a5a9ff9d-bc56-409c-8827-a1919f53807e)
 **==========================================================================**
-![09  Actividades_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/95c50b2d-ddb4-4505-ac27-bf0144152723)
+![02  quienessomos_12](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/814b238d-9bb0-4d60-af00-5810e5061350)
 **==========================================================================**
-![09  Actividades_2](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/6408a952-b779-483f-8aee-077f58f66b61)
+![03  Reflexión_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/3f7e9897-061b-488c-bb0b-01048ed5f30e)
 **==========================================================================**
-![09  Actividades_3](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/92ab0542-3522-404a-95bf-fffbf20a0737)
+![03  Reflexión_2](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/81696534-1cad-41b7-99b9-d650fb679d6a)
 **==========================================================================**
-![10  Contacto_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/154a2656-38ce-4d47-b665-92f6b452aebe)
+![03  Reflexión_3](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/1e868b53-ee69-4cdb-ac9f-cdab13f5e3f7)
 **==========================================================================**
-![10  Contacto_2](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/495dcf99-3aa9-4ba9-9123-eef543ca33d8)
+![04  Actividades_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/7d3cdb62-adde-4113-9cbe-10de3c0298c0)
 **==========================================================================**
-![10  Contacto_3](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/e9f74822-529d-4879-a143-2e8b8aacae0b)
+![04  Actividades_2](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/07e09f70-5219-4351-adff-ccbbecdd5ee5)
 **==========================================================================**
-![10  Contacto_4](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/27d2c429-28fa-4e3a-a988-34b5a3a46d19)
+![04  Actividades_3](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/715a616f-391c-4ea6-b8f4-897bdaedc3fb)
 **==========================================================================**
-![10  Contacto_5](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/eee60856-47e7-442c-b47a-7735dfdb252a)
+![04  Actividades_4](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/6809a176-12e9-4616-b400-1ac739e0503d)
 **==========================================================================**
-![10  Contacto_6](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/9f1e711d-f5ea-448e-8e17-7a83bafd5b8d)
+![05  Contacto_1](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/35e888ad-d3e0-4fd5-8106-7150c7f0c0af)
 **==========================================================================**
-![10  Contacto_7](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/73e9142b-608c-4122-9469-9bdc1fa99761)
+![05  Contacto_2](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/38c8fa7f-f814-498e-9e70-49115a7d1851)
 **==========================================================================**
-![10  Contacto_8](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/72870585-afde-46cb-b5c7-051eeac466e3)
+![05  Contacto_3](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/3e42fe3a-0327-4f4a-aa7a-496c4fe55ce5)
+**==========================================================================**
+![05  Contacto_4](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/2b9895ea-86b3-45a5-8bec-fa22ae171f32)
+**==========================================================================**
+![05  Contacto_5](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/c1474ca9-2738-4e20-85d4-9493425b48f9)
+**==========================================================================**
+![05  Contacto_6](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/5d14d421-2c58-4bf9-897a-87f4fbe858d6)
+**==========================================================================**
+![05  Contacto_7](https://github.com/misproyectosweb/proyecto-web-03/assets/98922137/6796d6cf-da1c-4bd5-828d-b28c76bef3e5)
+**==========================================================================**
