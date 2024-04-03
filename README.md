@@ -28,7 +28,7 @@ En cada archivo de estilos CSS se utiliza la técnica de rejilla **CSS Grid Layo
 
 Para el formulario de contacto se programaron validaciones tanto del lado del cliente utilizando JavaScript; así como del lado del servidor programado con PHP.
 
-Al implementar la herramienta SASS en este proyecto me permite crear bloques de código CSS, con una sintaxis indentada para separar cada bloque y almacenarlos en archivos separados para posteriormente, llevar a cabo tareas de mantenimiento más fáciles en caso de que se requiera realizar alguna modificación o añadir nuevas líneas de código CSS
+Al implementar la herramienta **SASS** en este proyecto me permite **crear bloques de código CSS, con una sintaxis indentada para separar cada bloque y almacenarlos en archivos separados** para posteriormente, llevar a cabo tareas de mantenimiento más fáciles en caso de que se requiera realizar alguna modificación o añadir nuevas líneas de código CSS
 
 Para enviar la información del usuario a través del formulario de contacto se utiliza una herramienta  llamada **PHPMailer.** Esta es una biblioteca de código abierto para enviar correos electrónicos de forma segura y sencilla a través de código PHP desde un servidor web. Además está basada en el componente active server ASPMail y permite de una forma sencilla tareas complejas como por ejemplo:
 - Enviar mensajes de correo con ficheros adjuntos (attachments) 
