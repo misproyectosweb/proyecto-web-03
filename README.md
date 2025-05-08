@@ -1,4 +1,5 @@
-# Proyecto web 03
+# Proyecto web 03: iglesia cristiana
+
 Sitio web que muestra y describe la información de los servicios que ofrece una iglesia
 
 Sitio web creado con las siguientes herramientas a nivel de front-end y back-end:
